@@ -23,27 +23,26 @@ public class GuiExecutor extends AbstractExecutorService  {
 
     @Override
     public void shutdown() {
-        //To change body of implemented methods use File | Settings | File Templates.
     }
 
     @Override
     public List<Runnable> shutdownNow() {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        return null;
     }
 
     @Override
     public boolean isShutdown() {
-        return false;  //To change body of implemented methods use File | Settings | File Templates.
+        return false;
     }
 
     @Override
     public boolean isTerminated() {
-        return false;  //To change body of implemented methods use File | Settings | File Templates.
+        return false;
     }
 
     @Override
     public boolean awaitTermination(long timeout, TimeUnit unit) throws InterruptedException {
-        return false;  //To change body of implemented methods use File | Settings | File Templates.
+        return false;
     }
 
 }
